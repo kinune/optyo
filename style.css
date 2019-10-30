@@ -1,0 +1,228 @@
+/* 
+Theme Name: katajarannanera
+Theme URI: http://www.katajarannanera.fi;
+Author: Aleksi Kinnunen
+Author URI: http://www.katajarannanera.fi;
+Description: katajarannanera
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: katajarannanera
+  */
+
+ 
+
+/*tausta*/
+
+#textbg {
+  position:absolute;
+  right:0px;
+  left:532px;
+  top:415px;
+  padding:1px;
+  filter:alpa(opacity=70);
+  -moz-opacity:.70;
+  opacity:.30;
+}
+
+ #bg img {
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   right: 0; 
+   bottom: 0; 
+   margin: auto; 
+   min-width: 50%;
+   min-height: 50%;
+ }
+  /*logonpaikka*/
+ #logo {
+   position:absolute;
+   width: 0%;
+   height: 0%;
+   top: 0; 
+   left: 719px; 
+   right: 0; 
+   bottom: 0;   
+ } 
+ 
+/*sivuvalikko */
+
+ #sidebarvalikko{
+    float: right;
+    height: 500px ;
+    color: rgba(500,500,500,1);
+    list-style: none;
+    padding: 25px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+    color: rgba(300,300,300,1);
+  }
+
+#sidebarvalikko {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: black;
+    left: -300px;
+    transition: all 500ms linear;
+  }
+
+  #sidebarvalikko ul li  {
+    color: rgba(500,500,500,1);
+    list-style: none;
+    padding: 25px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+  }
+  
+  #sidebarvalikko ul li a {
+    color: rgba(300,300,300,1);
+    text-decoration: none;
+  }
+  
+  #sidebarvalikko.active {
+    left: 0px;
+  }
+
+ #sidebarvalikko .toggle-btn {
+    position: absolute;
+    left: 330px;
+    top: 20px;
+  }
+
+  #sidebarvalikko .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background :black;
+    margin: 5px 0px;
+  }
+
+ #sidebarvalikko.active {
+    left: 0px;
+  }
+
+/*oikeavalikko*/
+
+  #sidebar {
+    float: right;
+    width: 280px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  #sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #sidebar li {
+    margin: 0;
+    padding: 0;
+  }
+
+  #sidebar li ul {
+    margin: 0px 0px;
+    padding-bottom: 30px;
+  }
+
+  #sidebar li li {
+    line-height: 35px;
+  }
+
+  #sidebar li li span {
+    display: block;
+    margin-top: -20px;
+    padding: 0;
+    font-size: 11px;
+    font-style: italic;
+  }
+
+  #sidebar h2 {
+    height: 38px;
+    margin-bottom: 20px;
+    padding: 12px 0 0 0;
+    border-bottom: 1px solid #B6BFD0;
+    letter-spacing: -1px;
+    font-size: 24px;
+    color: #1A1A1A;
+  }
+  
+  #sidebar p {
+    text-align: justify;
+  }
+  
+  #sidebar a {
+    border: none;
+  }
+  
+  #sidebar a:hover {
+    text-decoration: underline;
+  }
+
+  /*kalenteri*/
+
+  #calendar_wrap {
+    padding: 40px;
+  }
+  
+  #calendar table {
+    width: 100%;
+  }
+  
+  #calendar tbody td {
+    text-align: center;
+  }
+  
+  #calendar #next {
+    text-align: right;
+  }
+
+  /*teksin muotoilu ja asettelu*/
+
+  .post {
+    position: absolute;
+    width: 30%;
+    top: 490px; 
+    left: 612px;
+    padding-bottom: 10px;
+  }
+  
+  .post .title {
+    position: initial;
+    letter-spacing: 8px;
+  }
+  
+  .post .title a {
+    color: rgb(26, 26, 26);
+    border: none;
+  }
+  
+  .post .meta {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+  }
+  
+  .post .meta a {
+  }
+
+  .post .entry {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  #content {
+    position: absolute;
+    width: 30%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #F0F0F0 url(images/bg.png) repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+  }
